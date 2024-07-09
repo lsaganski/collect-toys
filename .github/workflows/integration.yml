@@ -16,4 +16,4 @@ jobs:
       run: sudo xcode-select -switch /Applications/Xcode.app
      
     - name: Build and Test
-      run: xcodebuild test -project TodoList.xcodeproj -scheme "collect-toys" -destination 'platform=iOS Simulator,name=iPhone 14,OS=16.4'
+      run: xcodebuild test -project collect-toys.xcodeproj -scheme "collect-toys" -destination 'platform=iOS Simulator,name=iPhone 14,OS=16.4'
