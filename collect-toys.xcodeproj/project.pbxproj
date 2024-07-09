@@ -17,6 +17,7 @@
 		9B0BBD612C3DBA8000D2ED6D /* collect_toysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0BBD602C3DBA8000D2ED6D /* collect_toysTests.swift */; };
 		9B0BBD6B2C3DBA8000D2ED6D /* collect_toysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0BBD6A2C3DBA8000D2ED6D /* collect_toysUITests.swift */; };
 		9B0BBD6D2C3DBA8000D2ED6D /* collect_toysUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0BBD6C2C3DBA8000D2ED6D /* collect_toysUITestsLaunchTests.swift */; };
+		9B28B5EE2C3DE5870002206C /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B28B5ED2C3DE5870002206C /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		9B0BBD662C3DBA8000D2ED6D /* collect-toysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "collect-toysUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B0BBD6A2C3DBA8000D2ED6D /* collect_toysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collect_toysUITests.swift; sourceTree = "<group>"; };
 		9B0BBD6C2C3DBA8000D2ED6D /* collect_toysUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collect_toysUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9B28B5ED2C3DE5870002206C /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				9B0BBD542C3DBA8000D2ED6D /* LaunchScreen.storyboard */,
 				9B0BBD572C3DBA8000D2ED6D /* Info.plist */,
 				9B0BBD4F2C3DBA7E00D2ED6D /* collect_toys.xcdatamodeld */,
+				9B28B5ED2C3DE5870002206C /* ViewModel.swift */,
 			);
 			path = "collect-toys";
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B28B5EE2C3DE5870002206C /* ViewModel.swift in Sources */,
 				9B0BBD4B2C3DBA7E00D2ED6D /* ViewController.swift in Sources */,
 				9B0BBD512C3DBA7E00D2ED6D /* collect_toys.xcdatamodeld in Sources */,
 				9B0BBD472C3DBA7E00D2ED6D /* AppDelegate.swift in Sources */,
